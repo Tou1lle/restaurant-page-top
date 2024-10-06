@@ -17,6 +17,7 @@ h1 {
     gap: 10%;
     padding: 2rem;
     background-color: black;
+    box-shadow: 0px -8px 30px 18px #000000;
 }
 
 button {
@@ -36,9 +37,9 @@ button:hover {
     color: black;
 }
 
-#content {
-    display: flex;
-    flex-direction: column;
+.restaurant-hp-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
 
@@ -47,8 +48,7 @@ button:hover {
     padding-left: 30px;
 }
 
-.restaurant-logo-container {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center ;
+.japanese-phrases {
+    font-size: 1.5rem;
+    padding-top: 1rem;
 }
