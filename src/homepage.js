@@ -55,10 +55,16 @@ class HomePage {
     }
 
     showHomePage() {
+        if (this.hpContainer.childNodes.length !== 0) return;
+
         this.createWelcomeDiv();
         this.createImageDiv();
 
         contentDiv.append(this.hpContainer);
+    }
+
+    deleteHomePage() {
+        this.hpContainer.textContent = "";
     }
 }
 

@@ -4,3 +4,6 @@ import HomePage from "./homepage.js";
 
 const homePage = new HomePage();
 homePage.showHomePage();
+homePage.showHomePage();
+
+homePage.deleteHomePage();
