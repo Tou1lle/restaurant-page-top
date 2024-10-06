@@ -24,7 +24,9 @@ class HomePage {
         welcomeDiv.classList.add("welcome-container");
 
         this.hpContainer.appendChild(welcomeDiv);
+    }
 
+    createWelcomeDivChildren() {
         const h1Div = document.createElement("h1");
         const welcomeMessage = document.createElement("p");
         const japanesePhrasesDiv = document.createElement("div");
@@ -38,6 +40,8 @@ class HomePage {
         japanesePhrase1.textContent = japaneseText1;
         japanesePhrase2.textContent = japaneseText2;
         japanesePhrase3.textContent = japaneseText3;
+
+        const welcomeDiv = document.querySelector(".welcome-container");
 
         welcomeDiv.append(h1Div, welcomeMessage, japanesePhrasesDiv);
         japanesePhrasesDiv.append(japanesePhrase1, japanesePhrase2, japanesePhrase3);
@@ -57,10 +61,11 @@ class HomePage {
     showHomePage() {
         if (this.hpContainer.childNodes.length !== 0) return;
 
+        contentDiv.append(this.hpContainer);
+
         this.createWelcomeDiv();
         this.createImageDiv();
-
-        contentDiv.append(this.hpContainer);
+        this.createWelcomeDivChildren()
     }
 
     deleteHomePage() {
