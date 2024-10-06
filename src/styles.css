@@ -1,3 +1,4 @@
+/* General Styles */
 * {
     font-family: sans-serif;
     transition: 0.2s ease-in-out;
@@ -7,10 +8,7 @@ body {
     background-color: whitesmoke;
 }
 
-h1 {
-    font-size: 4rem;
-}
-
+/* Upper Tab styles */
 .navigation-container {
     display: flex;
     justify-content: center;
@@ -35,6 +33,12 @@ button:hover {
     padding: 10px 60px;
     background-color: whitesmoke;
     color: black;
+}
+
+
+/* Homepage styles */
+h1 {
+    font-size: 4rem;
 }
 
 .restaurant-hp-container {
