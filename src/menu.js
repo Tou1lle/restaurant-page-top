@@ -121,4 +121,8 @@ function showMenuPage() {
     appendMenuItems();
 }
 
-export {showMenuPage};
+function clearMenuPage() {
+    menuListContainer.textContent = "";
+}
+
+export {showMenuPage, clearMenuPage};
