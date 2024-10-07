@@ -12,18 +12,25 @@ const sushiItems = {
     "Salmon Maki 12pcs": "20$",
     "Salmon Maki 8pcs": "15$",
     "Salmon Maki 4pxs": "10$",
+    "Avokado Maki 12pcs": "25$",
+    "Avokado Maki 8pcs": "20$",
+    "Avokado Maki 4pcs": "15$",
 }
 
 const soupItems = {
     "Thai Soup": "17$",
     "Chinese Soup": "13$",
     "Pho": "20$",
+    "Ramen": "25$",
+    "Instant nudles": "1$",
 }
 
 const drinkItems = {
     "Coca Cola": "3$",
     "Fanta": "3$",
     "Vinea": "3$",
+    "Tonic": "4$",
+    "Sprite": "3$",
 }
 
 // Menu with certain sections
