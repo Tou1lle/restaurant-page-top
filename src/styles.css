@@ -56,3 +56,50 @@ h1 {
     font-size: 1.5rem;
     padding-top: 1rem;
 }
+
+/* Menu styles */
+.menu-header {
+    font-size: 3rem;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.menu-list-container {
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+}
+
+section h2 {
+    display: flex;
+}
+
+section h2::after,
+section h2::before {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+section h2:before {
+    margin-right: 10px
+}
+
+section h2:after {
+    margin-left: 10px
+}
+
+.menu-item {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+span {
+    flex: 1;
+    border-bottom: 2px dotted black;
+}
