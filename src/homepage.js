@@ -67,10 +67,6 @@ class HomePage {
         this.createImageDiv();
         this.createWelcomeDivChildren()
     }
-
-    deleteHomePage() {
-        this.hpContainer.textContent = "";
-    }
 }
 
 export default HomePage;
