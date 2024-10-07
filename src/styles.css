@@ -74,6 +74,10 @@ h1 {
 }
 
 section h2 {
+    text-align: center;
+}
+/**
+section h2 {
     display: flex;
 }
 
@@ -92,6 +96,7 @@ section h2:before {
 section h2:after {
     margin-left: 10px
 }
+*/
 
 .menu-item {
     display: flex;
