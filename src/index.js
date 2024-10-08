@@ -11,7 +11,7 @@ const contentDiv = document.querySelector("#content");
 
 const homePage = new HomePage();
 
-homePage.showHomePage();
+//homePage.showHomePage();
 
 function clearPage() {
     contentDiv.textContent = "";
