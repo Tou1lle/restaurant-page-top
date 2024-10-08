@@ -2,6 +2,7 @@ import "./reset.css";
 import "./styles.css";
 import HomePage from "./homepage.js";
 import { showMenuPage, clearMenuPage } from "./menu.js";
+import { showAboutPage, clearAboutPage } from "./about.js";
 
 const buttons = document.querySelectorAll("button");
 const homeBtn = document.querySelector(".home-btn");
@@ -11,7 +12,7 @@ const contentDiv = document.querySelector("#content");
 
 const homePage = new HomePage();
 
-//homePage.showHomePage();
+homePage.showHomePage();
 
 function clearPage() {
     contentDiv.textContent = "";
@@ -29,4 +30,9 @@ homeBtn.addEventListener("click", () => {
 menuBtn.addEventListener("click", () => {
     clearMenuPage();
     showMenuPage();
+});
+
+aboutBtn.addEventListener("click", () => {
+    clearAboutPage();
+    showAboutPage();
 });
